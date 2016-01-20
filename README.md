@@ -4,7 +4,12 @@
 This example shows how to write ES6 code today and precompile the bundles
 for different platforms (that may or may not support all the necessary features).
 
-For details see [bahmutov/pre-compiled](https://github.com/bahmutov/pre-compiled)
+[![NPM][precompiled-example-icon] ][precompiled-example-url]
+
+[![Build status][precompiled-example-ci-image] ][precompiled-example-ci-url]
+[![semantic-release][semantic-image] ][semantic-url]
+
+For details see [bahmutov/precompiled-example](https://github.com/bahmutov/precompiled-example)
 
 ### Small print
 
@@ -46,3 +51,9 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
+[precompiled-example-icon]: https://nodei.co/npm/precompiled-example.png?downloads=true
+[precompiled-example-url]: https://npmjs.org/package/precompiled-example
+[precompiled-example-ci-image]: https://travis-ci.org/bahmutov/precompiled-example.png?branch=master
+[precompiled-example-ci-url]: https://travis-ci.org/bahmutov/precompiled-example
+[semantic-image]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
+[semantic-url]: https://github.com/semantic-release/semantic-release

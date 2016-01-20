@@ -1,14 +1,23 @@
 {
   "name": "precompiled-example",
-  "version": "1.0.0",
   "description": "Precompiled JavaScript bundles example module",
   "main": "dist/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "precompile",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "config": {
+    "pre-compiled": {
+      "dir": "dist",
+      "files": [
+        "src/main.js"
+      ]
+    }
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bahmutov/precompiled-example.git"
+    "url": "https://github.com/bahmutov/precompiled-example.git"
   },
   "keywords": [
     "pre",
@@ -22,5 +31,9 @@
   "bugs": {
     "url": "https://github.com/bahmutov/precompiled-example/issues"
   },
-  "homepage": "https://github.com/bahmutov/precompiled-example#readme"
+  "homepage": "https://github.com/bahmutov/precompiled-example#readme",
+  "devDependencies": {
+    "pre-compiled": "1.2.0",
+    "semantic-release": "^4.3.5"
+  }
 }
